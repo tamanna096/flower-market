@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Noto Serif', serif;
+  background: #ffffff;
+  color: #333;
+  padding: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.cart i {
+  margin-right: 6px;
+  color: #E95A08;
+}
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 40px 20px;
+  margin-bottom: 50px;
+}
+
+.hero-text {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.hero-text h1 span {
+  color:#E95A08;
+}
+
+.hero-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
