@@ -242,3 +242,53 @@ body {
     width: 80px;
   }
 }
+/* Subscription Section */
+.subscribe-section {
+  background: url('img/news-letter-bg.png') no-repeat center center/cover;
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.subscribe-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.subscribe-section h2 {
+  font-size: 36px;
+  font-family: 'Noto Serif', serif;
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.subscribe-form input {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.subscribe-form button {
+  background: #f26722;
+  color: white;
+  padding: 0 24px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.subscribe-form button:hover {
+  background: #d9540d;
+}
